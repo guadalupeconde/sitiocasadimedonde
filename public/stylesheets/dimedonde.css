@@ -1,0 +1,145 @@
+
+body {
+    background-color: azure;
+}
+
+footer {
+    background-color: #29741D;
+    text-align: center;
+    font-family: 'Quicksand'
+    sans-serif;
+}
+
+h1 {
+    font-family: 'pacifico'
+    cursive;
+}
+
+h2 {
+    font-family: 'Quicksand'
+    sans-serif;
+    font-size: medium;
+
+}
+
+.hero {
+    background: url(../images/portada.jpeg);
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 400px;
+    color: aquamarine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+#conteitemscarrusel {
+
+    border: black solid;
+    margin-right: 60%;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 400px;
+    overflow: hidden;
+   
+}
+.itemcarrusel {
+
+    height: 400px;
+    position: relative;
+
+}
+
+.tarjetacarrusel {
+    background-color: yellowgreen;
+    height: 100%;
+}
+
+.flechascarrusel {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+#contenedornovedades {
+    background-color: blue;
+    border-color: black solid;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    
+   
+}
+
+.novedades{
+    background-color: blue;
+    border-color: black solid;
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-right: 40%;
+    margin-bottom: 10%;
+    
+
+}
+.fotos {
+
+    padding-left: 10%;
+    padding-top: 10%;
+
+
+}
+
+.col2 {
+    background-color: red;
+    margin-top: 4%;
+    min-height: 200px;
+    margin-bottom: 4%;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+    background-color: green;
+
+}
+
+.col4 {
+    background-color: yellow;
+    margin-top: 4%;
+    min-height: 400px;
+    margin-bottom: 4%;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+

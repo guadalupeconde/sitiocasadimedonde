@@ -1,0 +1,114 @@
+<!--comienzael contenedor presentacion-->
+<div class="container-fluid">
+    <div id="home" class="row align-items-center hero">
+        <div class="col-lg-3 offset-lg-2">
+            <p>bajada</p>
+            <h1>titulo</h1>
+            <p>xxxxxxxxxxxxxxxxxxxxx</p>
+        </div>
+    </div>
+</div><!--termina el contenedor presentacion-->
+
+<!--carrusel comienzo-->
+
+<div id="conteitemscarrusel">
+
+    <section class="ustedes" id="ustedes">
+        <div class="itemcarrusel" id="itemcarrusel-1">
+            <div class="tarjetacarrusel" id="tarjetacarrusel-1">
+                <img src="images/baño.jpeg" alt="baño">
+            </div>
+            <div class="flechascarrusel">
+                <a href="#itemcarrusel-3">
+                    <i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #466911;"></i> </a>
+                <a href="#itemcarrusel-2">
+                    <i class="fa-solid fa-arrow-right" style="color: #466911;"></i> </a>
+            </div>
+        </div>
+        <div class="itemcarrusel" id="itemcarrusel-2">
+            <div class="tarjetacarrusel" id="tarjetacarrusel-2">
+                <img src="images/cocina.jpeg" alt="cocina">
+            </div>
+            <div class="flechascarrusel">
+                <a href="#itemcarrusel-1">
+                    <i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #466911;"></i> </a>
+                <a href="#itemcarrusel-3">
+                    <i class="fa-solid fa-arrow-right" style="color: #466911;"></i> </a>
+            </div>
+        </div>
+        <div class="itemcarrusel" id="itemcarrusel-3">
+            <div class="tarjetacarrusel" id="tarjetacarrusel-3">
+                <img src="images/dormitorio.jpeg" alt="dormitorio">
+            </div>
+            <div class="flechascarrusel">
+                <a href="#itemcarrusel-2">
+                    <i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #466911;"></i> </a>
+                <a href="#itemcarrusel-1">
+                    <i class="fa-solid fa-arrow-right" style="color: #466911;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</div><!--carrusel fin-->
+
+<!--abre novedades-->
+<section class="novedades" id="novedades">
+    <div class="contenedornovedades">
+
+        <div class="novedades" id="novedades1">
+            <img src="images/casino.jpeg" alt="casino">
+            <h2>Novedades de la ciudad</h2>
+        </div>
+        <div class="novedades" id="novedades2">
+            <img src="images/lobomarino.jpeg" alt="lobomarino">
+            <h2>Lugares de interes</h2>
+        </div>
+
+    </div><!--cierra novedades-->
+</section>
+<!--visitanos y contacto-->
+
+<div class="container text-center">
+    <!--visitanos-->
+    <div class="row row-cols-2">
+        <section class="ubicacion" id="ubicacion">
+            <div class="mapa">
+                <h1>Visitanos</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.538758964779!2d-57.604188116574406!3d-37.86660645465398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d7bbebd681fb%3A0x372e17f51bcd119d!2sCasa%20dimedonde!5e1!3m2!1ses!2sar!4v1696713322499!5m2!1ses!2sar"></iframe>
+            </div>
+        </section>
+        <!--contacto-->
+        <section class="formulariodecontacto" id="contacto">
+            <div class="contacto">
+                <h1>Contactanos</h1>
+                <form class="row g-3" action="/" method="post">
+                    <div class="col-md-6">
+                        <h2>Nombre</h2>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Apellido</h2>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                    <div class="col-12">
+                        <h2>Email</h2>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com" name="email">
+                    </div>
+                    <div class="col-12">
+                        <h2>Celular</h2>
+                        <input type="text" class="form-control" id="celular" placeholder="..." name="celular">
+                    </div>
+                    <div class="mb-3">
+                        <h2>Comentarios</h2>
+                        <textarea class="form-control" id="mensaje" rows="3" name="mensaje"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+                <p>{{message}}</p>
+            </div>
+        </section>
+    </div>
+</div>
